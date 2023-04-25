@@ -1,0 +1,40 @@
+{
+  "name": "express-template-server-structure",
+  "version": "0.0.1-init",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "SET DEBUG=express-template-server-structure:* && nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.4",
+    "helmet": "^6.1.5",
+    "http-errors": "~1.6.3",
+    "moment": "^2.29.4",
+    "morgan": "~1.9.1",
+    "passport": "^0.6.0",
+    "rethinkdb": "^2.4.2",
+    "socket.io": "^4.6.1",
+    "webrtc": "^1.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "description": "An express template project structure.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astitvsingh/Express-Template-Server-Structure.git"
+  },
+  "author": "astitv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/astitvsingh/Express-Template-Server-Structure/issues"
+  },
+  "homepage": "https://github.com/astitvsingh/Express-Template-Server-Structure#readme"
+}
